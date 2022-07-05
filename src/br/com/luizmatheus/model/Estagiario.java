@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author Computação
  */
-public class Estagiario extends Funcionario implements Serializable{
+public final class Estagiario extends Funcionario implements Serializable{
     protected double bolsa;
     protected int horas_servico;
     protected int cafes_feitos = 0;

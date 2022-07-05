@@ -32,5 +32,7 @@ public class Gravar_Arquivo {
         obj_new.flush();
 
         JOptionPane.showMessageDialog(null, nome_arq + " -> Gravado com sucesso!");
+        
+        arq.close();
     }
 }
